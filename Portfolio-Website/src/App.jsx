@@ -4,7 +4,7 @@ import IntroCard from "./IntroCard.jsx";
 function App() {
   return(
     <>
-      
+      <Header/>
       <IntroCard/>
       <Footer/>
     </>

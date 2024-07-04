@@ -1,9 +1,8 @@
-import profile_Pic from './assets/profilePic.jpg';
+import profile_Pic from './assets/binary.jpg';
 
 function IntroCard() {
   return (
     <div className="IntroCard">
-
         <div className='IntroCardPfp'>
             <img src={profile_Pic} alt="Profile picture" />
         </div>
