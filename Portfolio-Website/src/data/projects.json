@@ -1,26 +1,26 @@
 [
   {
-    "title": "Project A",
+    "title": "Shopping Website",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Shopping Website that requests login, sign-up, and has page protection while communicating with backend server via an API.",
+    "skills": ["ReactJs", "HTML","CSS", "JavaScript"],
+    "demo": "https://github.com/rodolfo-gp/ENSF381-Assignment5/tree/main/frontend",
+    "source": "https://github.com/rodolfo-gp/ENSF381-Assignment5/tree/main/frontend"
   },
   {
-    "title": "Project B",
+    "title": "Shopping Website Server",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Developed backend and API to communicate with the frontend. Handels authentication, sign-up, and host website product information.",
+    "skills": ["Python", "Flask", "API"],
+    "demo": "https://github.com/rodolfo-gp/ENSF381-Assignment5/tree/main/backend",
+    "source": "https://github.com/rodolfo-gp/ENSF381-Assignment5/tree/main/backend"
   },
   {
-    "title": "Project C",
+    "title": "Disaster Victim Management Application",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Terminal based application to assist social workers in handeling victims of a disaster. App communicates with database to keep track of different victims, locations, supplies, inquiries, etc.",
+    "skills": ["Java", "PostgreSQL"],
+    "demo": "https://github.com/rodolfo-gp/ENSF380-IndividualAssignment3",
+    "source": "https://github.com/rodolfo-gp/ENSF380-IndividualAssignment3"
   }
 ]
