@@ -1,5 +1,29 @@
 [
   {
+    "title": "Java",
+    "imageSrc": "skills/javaIcon.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/pythonIcon.png"
+  },
+  {
+    "title": "NodeJs",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "postgreSQL",
+    "imageSrc": "skills/postgreSQLIcon.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "C/C++",
+    "imageSrc": "skills/cppIcon.png"
+  },
+  {
     "title": "HTML",
     "imageSrc": "skills/html.png"
   },
@@ -8,23 +32,16 @@
     "imageSrc": "skills/css.png"
   },
   {
-    "title": "React",
+    "title": "JavaScript",
+    "imageSrc": "skills/javascriptIcon.png"
+  },
+  {
+    "title": "ReactJs",
     "imageSrc": "skills/react.png"
   },
   {
-    "title": "Node",
-    "imageSrc": "skills/node.png"
-  },
-  {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png"
-  },
-  {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
-  },
-  {
-    "title": "Figma",
-    "imageSrc": "skills/figma.png"
+    "title": "ViteJs",
+    "imageSrc": "skills/viteIcon.png"
   }
+  
 ]
