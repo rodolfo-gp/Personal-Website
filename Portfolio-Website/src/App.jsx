@@ -1,13 +1,8 @@
-import Header from "./Header.jsx";
-import Footer from "./Footer.jsx";
-import IntroCard from "./IntroCard.jsx";
+
+import NavBar from "./components/navbar/NavBar.jsx";
 function App() {
   return(
-    <>
-      <Header/>
-      <IntroCard/>
-      <Footer/>
-    </>
+    <div className={StyleSheet.App}> </div>
     );
 }
 

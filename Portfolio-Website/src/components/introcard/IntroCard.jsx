@@ -1,4 +1,4 @@
-import profile_Pic from './assets/binary.jpg';
+import profile_Pic from '../../assets/binary.jpg';
 
 function IntroCard() {
   return (
