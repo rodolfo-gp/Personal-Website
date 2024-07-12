@@ -16,7 +16,7 @@ export const About = () => {
         <ul className={styles.aboutItems}>
 
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/server.png")} alt="Server icon" />
+            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
               <h3>Backend Development</h3>
               <p>
