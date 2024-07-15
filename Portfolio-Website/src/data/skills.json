@@ -9,6 +9,10 @@
       "imageSrc": "skills/pythonIcon.png"
     },
     {
+      "title": "Flask",
+      "imageSrc": "skills/flask.svg"
+    },
+    {
       "title": "NodeJs",
       "imageSrc": "skills/node.png"
     },
@@ -19,10 +23,6 @@
     {
       "title": "MongoDB",
       "imageSrc": "skills/mongodb.png"
-    },
-    {
-      "title": "C/C++",
-      "imageSrc": "skills/cppIcon.png"
     }
   ],
   "frontend": [
