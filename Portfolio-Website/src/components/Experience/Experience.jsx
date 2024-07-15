@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 
 import styles from "./Experience.module.css";
 import skills from "../../data/skills.json";
@@ -11,7 +11,7 @@ export const Experience = () => {
       <h2 className={styles.title}>Experience</h2>
       <div className={styles.content}>
         <div className={styles.skills}>
-          {skills.map((skill, id) => {
+          {skills.frontend.map((skill, id) => {
             return (
               <div key={id} className={styles.skill}>
                 <div className={styles.skillImageContainer}>
