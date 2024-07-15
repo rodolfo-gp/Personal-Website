@@ -109,4 +109,9 @@
   .content {
     align-items: center;
   }
+  .heroImg {
+    padding-top: 5%;
+    width: 85%;
+    
+  }
 }
