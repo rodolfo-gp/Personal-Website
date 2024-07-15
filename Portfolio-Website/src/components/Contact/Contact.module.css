@@ -10,18 +10,21 @@
   width: 100vw;
   padding: 58px 10%;
   gap: 10px;
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
 }
 
 .text h2 {
-  font-size: 80px;
+  font-size: 10vw; /* Responsive font size */
   font-weight: 700;
-  letter-spacing: 4px;
+  letter-spacing: 0.4vw; /* Responsive letter spacing */
+  margin: 0; /* Remove default margin */
 }
 
 .text p {
-  font-size: 40px;
+  font-size: 5vw; /* Responsive font size */
   font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: 0.2vw; /* Responsive letter spacing */
+  margin: 0; /* Adjust margin as needed */
 }
 
 .links {
@@ -30,35 +33,49 @@
   align-items: flex-start;
   list-style: none;
   gap: 26px;
+  margin: 0; /* Remove default margin */
 }
 
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 1.5vw; /* Responsive gap */
+}
+
+.link img {
+  max-width: 40px; /* Set a maximum width for icons */
+  height: auto; /* Maintain aspect ratio */
 }
 
 .link a {
   color: var(--color-text);
   text-decoration: none;
-  font-size: 30px;
+  font-size: 2.5vw; /* Responsive font size */
   font-weight: 400;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.15vw; /* Responsive letter spacing */
+  word-wrap: break-word; /* Ensure text wraps within its container */
 }
 
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
     gap: 23px;
+    padding: 20px 5%; /* Adjust padding for smaller screens */
   }
 
   .text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center; /* Center align text for smaller screens */
   }
 
   .links {
     align-items: center;
+  }
+
+  .link a {
+    font-size: 4.5vw; /* Adjust font size for smaller screens */
+    word-wrap: break-word; /* Ensure text wraps within its container */
   }
 }
