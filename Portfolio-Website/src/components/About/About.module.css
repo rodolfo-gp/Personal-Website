@@ -96,3 +96,9 @@
     padding-right: 0;
   }
 }
+@media screen and (max-width: 532px) {
+  .container{
+    background-color: transparent;
+  }
+  
+}
