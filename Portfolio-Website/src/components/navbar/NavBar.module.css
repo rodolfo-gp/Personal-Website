@@ -15,11 +15,28 @@
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
+  position: relative;
 }
 
+.title::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  background: var(--color-text);
+  transition: width 0.3s;
+  bottom: -5px;
+  left: 0;
+}
+
+.title:hover::after {
+  width: 100%;
+}
 
 .menuBtn {
   display: none;
+  width: 35px;
 }
 
 .menu {
@@ -32,10 +49,37 @@
   list-style: none;
 }
 
+.menuItems a,
+.title {
+  position: relative;
+}
+
+.menuItems a::after,
+.title::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  background: var(--color-text);
+  transition: width 0.3s;
+  bottom: -5px;
+  left: 0;
+}
+
+.menuItems a:hover::after,
+.title:hover::after {
+  width: 100%;
+}
+
 .menuItems a {
   font-size: 25px;
   color: var(--color-text);
   text-decoration: none;
+}
+
+.menuItems a::after {
+  bottom: -5px; /* Adjust bottom position if needed */
 }
 
 @media screen and (max-width: 830px) {
@@ -65,11 +109,10 @@
     align-items: center;
     gap: 13px;
     border-radius: 10px;
-    background: rgb(25, 55, 109);
     background: linear-gradient(
       0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
+      var(--color-primary) 0%,
+      var(--color-secondary) 100%
     );
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
@@ -78,5 +121,9 @@
   .menuOpen {
     display: flex;
     z-index: 1;
+  }
+
+  .menuItems a {
+    font-size: 20px; /* Adjust font size for mobile view */
   }
 }
