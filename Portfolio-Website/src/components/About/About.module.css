@@ -70,6 +70,7 @@
 
 .aboutItem p {
   font-size: 25px;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 830px) {
@@ -96,9 +97,4 @@
     padding-right: 0;
   }
 }
-@media screen and (max-width: 532px) {
-  .container{
-    background-color: transparent;
-  }
-  
-}
+
