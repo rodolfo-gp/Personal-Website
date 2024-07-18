@@ -1,26 +1,35 @@
 [
+  
+  {
+    "title": "Shopping Website Server",
+    "imageSrc": "projects/websiteServerCode1.png",
+    "description": "Developed backend and API for frontend communication, handling authentication, sign-up, and hosting website product information.",
+    "skills": ["Python", "Flask", "API"],
+    "demo": "https://youtu.be/7yRfdCGgevM",
+    "source": "https://github.com/rodolfo-gp/ENSF381-Assignment5/tree/main/backend"
+  },
   {
     "title": "Shopping Website",
-    "imageSrc": "projects/project.png",
-    "description": "Shopping Website that requests login, sign-up, and has page protection while communicating with backend server via an API.",
+    "imageSrc": "projects/websiteLogin.png",
+    "description": "Shopping Website with user authentication, sign-up, and secure page navigation, featuring seamless backend server communication via API.",
     "skills": ["ReactJs", "HTML","CSS", "JavaScript"],
-    "demo": "https://youtu.be/nmry_HMKClA",
+    "demo": "https://youtu.be/7yRfdCGgevM",
     "source": "https://github.com/rodolfo-gp/ENSF381-Assignment5/tree/main/frontend"
   },
   {
-    "title": "Shopping Website Server",
+    "title": "Airline Flight Management Application",
     "imageSrc": "projects/project.png",
-    "description": "Developed backend and API to communicate with the frontend. Handels authentication, sign-up, and host website product information.",
-    "skills": ["Python", "Flask", "API"],
-    "demo": "https://youtu.be/nmry_HMKClA",
-    "source": "https://github.com/rodolfo-gp/ENSF381-Assignment5/tree/main/backend"
+    "description": "Application enables airline employees to efficiently manage passenger seat assignments and update passenger information. It supports adding and removing passengers and saves all data in a straightforward text file format.",
+    "skills": ["C++","OOP", "Team Member"],
+    "demo": "https://youtu.be/Sfx5AB4YbE8?feature=shared&t=313",
+    "source": "https://github.com/rodolfo-gp/Airline-Flight-Management-Application"
   },
   {
     "title": "Disaster Victim Management Application",
     "imageSrc": "projects/project.png",
-    "description": "Terminal based application to assist social workers in handeling victims of a disaster. App communicates with database to keep track of different victims, locations, supplies, inquiries, etc.",
+    "description": "Terminal-based application assisting social workers in managing disaster victims. Communicates with a database to track victims, locations, supplies, inquiries, and more.",
     "skills": ["Java", "PostgreSQL"],
-    "demo": "https://github.com/rodolfo-gp/ENSF380-IndividualAssignment3",
-    "source": "https://github.com/rodolfo-gp/ENSF380-IndividualAssignment3"
+    "demo": "",
+    "source": "https://github.com/rodolfo-gp/Disaster-Victim-Management-Application"
   }
 ]

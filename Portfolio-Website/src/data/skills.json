@@ -23,6 +23,10 @@
     {
       "title": "MongoDB",
       "imageSrc": "skills/mongodb.png"
+    },
+    {
+      "title": "C/C++",
+      "imageSrc": "skills/cppIcon.png"
     }
   ],
   "frontend": [

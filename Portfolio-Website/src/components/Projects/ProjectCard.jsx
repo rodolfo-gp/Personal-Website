@@ -1,7 +1,5 @@
-// import React from "react";
-
 import styles from "./ProjectCard.module.css";
-import { getImageUrl } from "../../utils";
+import { checkDemoLink, getImageUrl } from "../../utils";
 
 export const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo, source },
@@ -25,10 +23,10 @@ export const ProjectCard = ({
         })}
       </ul>
       <div className={styles.links}>
-        {/* <a href={demo} className={styles.link}>
+        <a href={demo} className={styles.link} style={checkDemoLink(demo)} target="_blank">
           Demo
-        </a> */}
-        <a href={source} className={styles.link}>
+        </a>
+        <a href={source} className={styles.link} target="_blank">
           Source
         </a>
       </div>
