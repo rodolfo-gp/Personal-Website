@@ -1,5 +1,5 @@
 import styles from "./ProjectCard.module.css";
-import { checkDemoLink, getImageUrl } from "../../utils";
+import { checkLink, getImageUrl } from "../../utils";
 
 export const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo, source },
@@ -23,10 +23,10 @@ export const ProjectCard = ({
         })}
       </ul>
       <div className={styles.links}>
-        <a href={demo} className={styles.link} style={checkDemoLink(demo)} target="_blank">
+        <a href={demo} className={styles.link} style={checkLink(demo)} target="_blank">
           Demo
         </a>
-        <a href={source} className={styles.link} target="_blank">
+        <a href={source} className={styles.link} style={checkLink(source)} target="_blank">
           Source
         </a>
       </div>
