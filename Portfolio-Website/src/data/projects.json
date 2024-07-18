@@ -4,7 +4,7 @@
     "imageSrc": "projects/project.png",
     "description": "Shopping Website that requests login, sign-up, and has page protection while communicating with backend server via an API.",
     "skills": ["ReactJs", "HTML","CSS", "JavaScript"],
-    "demo": "https://github.com/rodolfo-gp/ENSF381-Assignment5/tree/main/frontend",
+    "demo": "https://youtu.be/nmry_HMKClA",
     "source": "https://github.com/rodolfo-gp/ENSF381-Assignment5/tree/main/frontend"
   },
   {
@@ -12,7 +12,7 @@
     "imageSrc": "projects/project.png",
     "description": "Developed backend and API to communicate with the frontend. Handels authentication, sign-up, and host website product information.",
     "skills": ["Python", "Flask", "API"],
-    "demo": "https://github.com/rodolfo-gp/ENSF381-Assignment5/tree/main/backend",
+    "demo": "https://youtu.be/nmry_HMKClA",
     "source": "https://github.com/rodolfo-gp/ENSF381-Assignment5/tree/main/backend"
   },
   {
