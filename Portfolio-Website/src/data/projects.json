@@ -33,7 +33,7 @@
     "source": "https://github.com/rodolfo-gp/Mini-Arcade-Machine"
   },
   {
-    "title": "Disaster Victim Management Application",
+    "title": "Disaster Victim Management System",
     "imageSrc": "projects/DVMA1.png",
     "description": "Terminal-based application assisting social workers in managing disaster victims. Communicates with a database to track victims, locations, supplies, inquiries, and more.",
     "skills": ["Java", "PostgreSQL"],
