@@ -25,8 +25,16 @@
     "source": "https://github.com/rodolfo-gp/Airline-Flight-Management-Application"
   },
   {
+    "title": "Mini Arcade Machine",
+    "imageSrc": "projects/miniArcadeMachine.jpg",
+    "description": "Developed and programmed the game, and designed the circuit for an Arduino microcontroller within a mini portable arcade machine. Both the program and circuit were optimized to operate efficiently within the power constraints of a 9V battery.",
+    "skills": ["C++","Circuit Design", "Team Member"],
+    "demo": "https://youtu.be/gb0ZfCM0p48",
+    "source": "https://github.com/rodolfo-gp/Mini-Arcade-Machine"
+  },
+  {
     "title": "Disaster Victim Management Application",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/DVMA1.png",
     "description": "Terminal-based application assisting social workers in managing disaster victims. Communicates with a database to track victims, locations, supplies, inquiries, and more.",
     "skills": ["Java", "PostgreSQL"],
     "demo": "",
