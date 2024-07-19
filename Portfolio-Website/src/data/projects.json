@@ -6,7 +6,7 @@
     "description": "Developed backend and API for frontend communication, handling authentication, sign-up, and hosting website product information.",
     "skills": ["Python", "Flask", "API"],
     "demo": "https://youtu.be/7yRfdCGgevM",
-    "source": "https://github.com/rodolfo-gp/ENSF381-Assignment5/tree/main/backend"
+    "source": "https://github.com/rodolfo-gp/Website-and-Server"
   },
   {
     "title": "Shopping Website",
@@ -14,7 +14,7 @@
     "description": "Shopping Website with user authentication, sign-up, and secure page navigation, featuring seamless backend server communication via API.",
     "skills": ["ReactJs", "HTML","CSS", "JavaScript"],
     "demo": "https://youtu.be/7yRfdCGgevM",
-    "source": "https://github.com/rodolfo-gp/ENSF381-Assignment5/tree/main/frontend"
+    "source": "https://github.com/rodolfo-gp/Website-and-Server"
   },
   {
     "title": "Airline Flight Management Application",
