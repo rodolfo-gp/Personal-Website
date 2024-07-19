@@ -18,7 +18,7 @@
   },
   {
     "title": "Airline Flight Management Application",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/airlineFlightApp2.png",
     "description": "Application enables airline employees to efficiently manage passenger seat assignments and update passenger information. It supports adding and removing passengers and saves all data in a straightforward text file format.",
     "skills": ["C++","OOP", "Team Member"],
     "demo": "https://youtu.be/Sfx5AB4YbE8?feature=shared&t=313",
