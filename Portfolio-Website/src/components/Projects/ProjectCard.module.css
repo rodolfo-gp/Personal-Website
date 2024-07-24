@@ -61,7 +61,7 @@
   border-radius: 100px;
   background: var(--color-dark);
   padding: 1px 22px;
-  position: relative; /* For positioning the underline */
+  position: relative;
 }
 
 .link::after {
@@ -78,4 +78,14 @@
 
 .link:hover::after {
   width: 80%; /* 80% of the link's width */
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    max-width: 100%; 
+    width: 100%;
+  }
+  .image {
+    width: 100%; 
+  }
 }

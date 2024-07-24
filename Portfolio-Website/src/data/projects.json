@@ -1,9 +1,8 @@
 [
-  
   {
     "title": "Shopping Website Server",
     "imageSrc": "projects/websiteServerCode1.png",
-    "description": "Developed backend and API for frontend communication, handling authentication, sign-up, and hosting website product information.",
+    "description": "Developed the backend and API for frontend communication, handling user authentication, sign-up processes, and hosting product information for the website. The server efficiently processes requests and responses to ensure a seamless user experience.",
     "skills": ["Python", "Flask", "API"],
     "demo": "https://youtu.be/7yRfdCGgevM",
     "source": "https://github.com/rodolfo-gp/Website-and-Server"
@@ -11,31 +10,31 @@
   {
     "title": "Shopping Website",
     "imageSrc": "projects/websiteLogin.png",
-    "description": "Shopping Website with user authentication, sign-up, and secure page navigation, featuring seamless backend server communication via API.",
-    "skills": ["ReactJs", "HTML","CSS", "JavaScript"],
+    "description": "Created a shopping website with user authentication, sign-up, secure page navigation, and seamless backend server communication via API. The website features an intuitive user interface and a shopping cart that retains selected products for a streamlined shopping experience.",
+    "skills": ["ReactJs", "HTML", "CSS", "JavaScript"],
     "demo": "https://youtu.be/7yRfdCGgevM",
     "source": "https://github.com/rodolfo-gp/Website-and-Server"
   },
   {
     "title": "Airline Flight Management Application",
     "imageSrc": "projects/airlineFlightApp2.png",
-    "description": "Application enables airline employees to efficiently manage passenger seat assignments and update passenger information. It supports adding and removing passengers and saves all data in a straightforward text file format.",
-    "skills": ["C++","OOP", "Team Member"],
+    "description": "Designed an application to help airline employees manage passenger seat assignments and update passenger information. The application supports adding and removing passengers and saves all data in a straightforward text file format, ensuring easy access and modification of passenger records.",
+    "skills": ["C++", "OOP", "Team Member"],
     "demo": "https://youtu.be/Sfx5AB4YbE8?feature=shared&t=313",
     "source": "https://github.com/rodolfo-gp/Airline-Flight-Management-Application"
   },
   {
     "title": "Mini Arcade Machine",
     "imageSrc": "projects/miniArcadeMachine.jpg",
-    "description": "Developed and programmed the game, and designed the circuit for an Arduino microcontroller within a mini portable arcade machine. Both the program and circuit were optimized to operate efficiently within the power constraints of a 9V battery.",
-    "skills": ["C++","Circuit Design", "Team Member"],
+    "description": "Developed and programmed a game, and designed the circuit for an Arduino microcontroller within a mini portable arcade machine. Both the program and circuit were optimized to operate efficiently within the power constraints of a 9V battery. The machine includes a screen, joystick, and buzzer, providing a nostalgic arcade experience.",
+    "skills": ["C++", "Circuit Design", "Team Member"],
     "demo": "https://youtu.be/gb0ZfCM0p48",
     "source": "https://github.com/rodolfo-gp/Mini-Arcade-Machine"
   },
   {
     "title": "Disaster Victim Management System",
     "imageSrc": "projects/DVMA1.png",
-    "description": "Terminal-based application assisting social workers in managing disaster victims. Communicates with a database to track victims, locations, supplies, inquiries, and more.",
+    "description": "Created a terminal-based application to assist social workers in managing disaster victims. The application communicates with a database to track victims, locations, supplies, inquiries, and more. It provides a comprehensive solution for disaster response and support, enabling efficient and organized management of crucial data during emergencies.",
     "skills": ["Java", "PostgreSQL"],
     "demo": "",
     "source": "https://github.com/rodolfo-gp/Disaster-Victim-Management-Application"

@@ -10,6 +10,7 @@
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
+  box-shadow: 0 16px 14px 0 #04152d; 
 }
 
 .title {
@@ -52,7 +53,6 @@
   border-radius: 10px;
   gap: 10px;
   /* border: 1px solid red; */
-  
 }
 
 .skill {
@@ -87,9 +87,8 @@
   font-weight: 300;
 }
 
-
 @media screen and (max-width: 830px) {
-  .container{
+  .container {
     background-color: transparent;
     padding: 10px;
     margin: 10px;
@@ -101,11 +100,11 @@
     padding: 0px;
     margin: 0px;
   }
-  .skills{
+  .skills {
     flex-basis: 100%;
     width: 100%;
   }
-  .title{
+  .title {
     margin-bottom: 30px;
   }
 }
