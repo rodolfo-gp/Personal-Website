@@ -21,10 +21,6 @@
       "imageSrc": "skills/postgreSQLIcon.png"
     },
     {
-      "title": "MongoDB",
-      "imageSrc": "skills/mongodb.png"
-    },
-    {
       "title": "C/C++",
       "imageSrc": "skills/cppIcon.png"
     }
