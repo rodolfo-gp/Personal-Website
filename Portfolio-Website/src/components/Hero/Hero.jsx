@@ -26,7 +26,7 @@ export const Hero = () => {
           <a href="#contact" className={styles.contactBtn}>
             Contact
           </a>
-          <a href="/Rodolfo_Resume.pdf" className={styles.resumeBtn} target="_blank">
+          <a href="/resume.pdf" className={styles.resumeBtn} target="_blank">
             Resume
           </a>
         </div>

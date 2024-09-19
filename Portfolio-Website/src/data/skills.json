@@ -17,6 +17,10 @@
       "imageSrc": "skills/node.png"
     },
     {
+      "title": "ExpressJs",
+      "imageSrc": "skills/expressJs.svg"
+    },
+    {
       "title": "postgreSQL",
       "imageSrc": "skills/postgreSQLIcon.png"
     },

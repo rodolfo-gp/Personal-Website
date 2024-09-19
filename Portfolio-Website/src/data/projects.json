@@ -16,6 +16,14 @@
     "source": "https://github.com/rodolfo-gp/Website-and-Server"
   },
   {
+    "title": "Library Book Reservation System",
+    "imageSrc": "projects/porgramming.jpg",
+    "description": "A backend for managing book reservations, user authentication, and inventory, using a secure PostgreSQL DB for efficient data storage. It handles API requests for book searches, reservations, and librarian tasks.",
+    "skills": ["ExpressJs", "API", "PostgreSQL",  "Server","Team Member"],
+    "demo": "",
+    "source": "https://github.com/rodolfo-gp/Library-Book-Reservation-System"
+  },
+  {
     "title": "Airline Flight Management Application",
     "imageSrc": "projects/airlineFlightApp2.png",
     "description": "Designed an application to help airline employees manage passenger seat assignments and update passenger information. The application supports adding and removing passengers and saves all data in a straightforward text file format, ensuring easy access and modification of passenger records.",
