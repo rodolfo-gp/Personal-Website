@@ -1,3 +1,13 @@
 # Personal-Website
 
-https://rodolfogil.netlify.app/
+Link:
+    https://rodolfogil.netlify.app/
+
+
+
+
+Locally Launch website:
+    npm run dev
+
+Build:
+    npm run build
