@@ -1,5 +1,13 @@
 [
   {
+    "title": "Movie Theater Application Server",
+    "imageSrc": "projects/porgramming.jpg",
+    "description": "Worked in a team, where I designed and developed a MySQL DB and Spring Boot server REST API for features like movie info, user authentication, ticket booking, and payment.",
+    "skills": ["Java", "MySQL", "Spring", "Team Member"],
+    "demo": "",
+    "source": "https://github.com/rodolfo-gp/Movie-Theater-Application"
+  },
+  {
     "title": "Shopping Website Server",
     "imageSrc": "projects/websiteServerCode1.png",
     "description": "Developed the backend and API for frontend communication, handling user authentication, sign-up processes, and hosting product information for the website. The server efficiently processes requests and responses to ensure a seamless user experience.",
@@ -10,18 +18,10 @@
   {
     "title": "Shopping Website",
     "imageSrc": "projects/websiteLogin.png",
-    "description": "Created a shopping website with user authentication, sign-up, secure page navigation, and seamless backend server communication via API. The website features an intuitive user interface and a shopping cart that retains selected products for a streamlined shopping experience.",
+    "description": "Created a shopping website with user authentication, sign-up, secure page navigation, and seamless backend server communication via API. The website focuses on intuitive user features and a shopping cart that retains selected products for a enhanced shopping experience.",
     "skills": ["ReactJs", "HTML", "CSS", "JavaScript"],
     "demo": "https://youtu.be/7yRfdCGgevM",
     "source": "https://github.com/rodolfo-gp/Website-and-Server"
-  },
-  {
-    "title": "Library Book Reservation System",
-    "imageSrc": "projects/porgramming.jpg",
-    "description": "A backend for managing book reservations, user authentication, and inventory, using a secure PostgreSQL DB for efficient data storage. It handles API requests for book searches, reservations, and librarian tasks.",
-    "skills": ["ExpressJs", "API", "PostgreSQL",  "Server","Team Member"],
-    "demo": "",
-    "source": "https://github.com/rodolfo-gp/Library-Book-Reservation-System"
   },
   {
     "title": "Airline Flight Management Application",

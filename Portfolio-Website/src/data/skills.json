@@ -17,12 +17,12 @@
       "imageSrc": "skills/node.png"
     },
     {
-      "title": "ExpressJs",
-      "imageSrc": "skills/expressJs.svg"
+      "title": "Spring",
+      "imageSrc": "skills/springboot.svg"
     },
     {
-      "title": "postgreSQL",
-      "imageSrc": "skills/postgreSQLIcon.png"
+      "title": "SQL",
+      "imageSrc": "skills/sql-server.png"
     },
     {
       "title": "C/C++",

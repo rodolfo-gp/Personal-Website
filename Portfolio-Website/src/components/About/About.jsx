@@ -21,7 +21,7 @@ export const About = () => {
               <h3>Backend Development</h3>
               <p>
                 I have experience developing <br/>
-                back-end systems managing databases, and APIs
+                backend systems managing databases, and APIs
               </p>
             </div>
           </li>
