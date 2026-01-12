@@ -13,7 +13,7 @@ export const Hero = () => {
 
       <div className={styles.content}>
         <h1 className={styles.title}>
-          Hey, I'm 
+          Hi, I'm 
           <br />
           Rodolfo Gil-Pereira
         </h1>

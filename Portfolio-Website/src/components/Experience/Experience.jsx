@@ -1,49 +1,54 @@
-//import React from "react";
-
 import styles from "./Experience.module.css";
-import skills from "../../data/skills.json";
 import history from "../../data/history.json";
 import { getImageUrl } from "../../utils";
 
 export const Experience = () => {
   return (
     <section className={styles.container} id="experience">
-      <h2 className={styles.title}>Experience</h2>
-      <div className={styles.content}>
-        <div className={styles.skills}>
-          {skills.frontend.map((skill, id) => {
-            return (
-              <div key={id} className={styles.skill}>
-                <div className={styles.skillImageContainer}>
-                  <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
-                </div>
-                <p>{skill.title}</p>
-              </div>
-            );
-          })}
-        </div>
-        <ul className={styles.history}>
-          {history.map((historyItem, id) => {
-            return (
-              <li key={id} className={styles.historyItem}>
-                <img
-                  src={getImageUrl(historyItem.imageSrc)}
-                  alt={`${historyItem.organisation} Logo`}
-                />
-                <div className={styles.historyItemDetails}>
-                  <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
-                  <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
-                  <ul>
-                    {historyItem.experiences.map((experience, id) => {
-                      return <li key={id}>{experience}</li>;
-                    })}
-                  </ul>
-                </div>
-              </li>
-            );
-          })}
-        </ul>
+      <div className={styles.header}>
+        <h2 className={styles.title}>Experience</h2>
+        <p className={styles.subtitle}>
+          Roles, projects, and hands-on experience.
+        </p>
       </div>
+
+      <ul className={styles.timeline}>
+        {history.map((item, idx) => (
+          <li key={idx} className={styles.timelineItem}>
+            <div className={styles.card}>
+              <div className={styles.cardHeader}>
+                <div className={styles.logoWrap}>
+                  <img
+                    src={getImageUrl(item.imageSrc)}
+                    alt={`${item.organisation} Logo`}
+                    className={styles.logo}
+                    loading="lazy"
+                  />
+                </div>
+
+                <div className={styles.meta}>
+                  <h3 className={styles.role}>
+                    {item.role}
+                    <span className={styles.org}>
+                      {" "}
+                      · {item.organisation}
+                    </span>
+                  </h3>
+                  <p className={styles.dates}>
+                    {item.startDate} — {item.endDate}
+                  </p>
+                </div>
+              </div>
+
+              <ul className={styles.bullets}>
+                {item.experiences.map((exp, i) => (
+                  <li key={i}>{exp}</li>
+                ))}
+              </ul>
+            </div>
+          </li>
+        ))}
+      </ul>
     </section>
   );
 };
