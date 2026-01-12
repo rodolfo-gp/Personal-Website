@@ -1,54 +1,31 @@
 {
   "backend": [
-    {
-      "title": "Java",
-      "imageSrc": "skills/javaIcon.png"
-    },
-    {
-      "title": "Python",
-      "imageSrc": "skills/pythonIcon.png"
-    },
-    {
-      "title": "Flask",
-      "imageSrc": "skills/flask.svg"
-    },
-    {
-      "title": "NodeJs",
-      "imageSrc": "skills/node.png"
-    },
-    {
-      "title": "Spring",
-      "imageSrc": "skills/springboot.svg"
-    },
-    {
-      "title": "SQL",
-      "imageSrc": "skills/sql-server.png"
-    },
-    {
-      "title": "C/C++",
-      "imageSrc": "skills/cppIcon.png"
-    }
+    { "title": "Python", "imageSrc": "skills/pythonIcon.png" },
+    { "title": "Flask", "imageSrc": "skills/flask.svg" },
+    { "title": "NodeJs", "imageSrc": "skills/node.png" },
+    { "title": "Java", "imageSrc": "skills/javaIcon.png" },
+    { "title": "Spring", "imageSrc": "skills/springboot.svg" },
+    { "title": "MongoDB", "imageSrc": "skills/mongodb.png" },
+    { "title": "SQL", "imageSrc": "skills/sql-server.png" },
+    { "title": "C/C++", "imageSrc": "skills/cppIcon.png" }
   ],
   "frontend": [
-    {
-      "title": "ReactJs",
-      "imageSrc": "skills/react.png"
-    },
-    {
-      "title": "ViteJs",
-      "imageSrc": "skills/viteIcon.png"
-    },
-    {
-      "title": "HTML",
-      "imageSrc": "skills/html.png"
-    },
-    {
-      "title": "CSS",
-      "imageSrc": "skills/css.png"
-    },
-    {
-      "title": "JavaScript",
-      "imageSrc": "skills/javascriptIcon.png"
-    }
+    { "title": "ReactJs", "imageSrc": "skills/react.png" },
+    { "title": "ViteJs", "imageSrc": "skills/viteIcon.png" },
+    { "title": "HTML", "imageSrc": "skills/html.png" },
+    { "title": "CSS", "imageSrc": "skills/css.png" },
+
+    { "title": "TypeScript", "imageSrc": "skills/typescript.png" }
+  ],
+  "tools": [
+    { "title": "Docker", "imageSrc": "skills/docker.png" },
+    { "title": "AWS", "imageSrc": "skills/aws.png" },
+    { "title": "Git", "imageSrc": "skills/git.png" }
+  ],
+  "ai": [
+    { "title": "LLMs", "imageSrc": "skills/pythonIcon.png" },
+    { "title": "RAG", "imageSrc": "skills/pythonIcon.png" },
+    { "title": "Vector Search", "imageSrc": "skills/pythonIcon.png" },
+    { "title": "LangChain", "imageSrc": "skills/pythonIcon.png" }
   ]
 }

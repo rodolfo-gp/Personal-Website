@@ -2,7 +2,11 @@
 
 .container {
   position: relative;
-  background: linear-gradient(180deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  background: linear-gradient(
+    180deg,
+    var(--color-primary) 0%,
+    var(--color-secondary) 100%
+  );
   color: var(--color-text);
   border-radius: 15px;
   padding: 73px;
@@ -10,7 +14,7 @@
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
-  box-shadow: 0 16px 14px 0 #04152d; 
+  box-shadow: 0 16px 14px 0 #04152d;
 }
 
 .title {
@@ -32,15 +36,24 @@
   margin-bottom: 20px;
 }
 
+/* =========================
+   Layout
+   Row 1: backend + frontend
+   Row 2: tools centered
+   ========================= */
+
 .content {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   margin-top: 14px;
-  gap: 0%;
-  /* border: 1px solid green; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "backend frontend"
+    "tools tools";
+  gap: 32px 24px;
+  align-items: start;
 }
 
+/* base section styling */
 .skills {
   box-sizing: border-box;
   display: flex;
@@ -48,12 +61,31 @@
   flex-direction: row;
   flex-wrap: wrap;
   text-align: center;
-  flex-basis: 50%;
   padding: 0px;
   border-radius: 10px;
   gap: 10px;
-  /* border: 1px solid red; */
 }
+
+/* order/placement */
+.skills:nth-child(1) {
+  grid-area: backend;
+}
+
+.skills:nth-child(2) {
+  grid-area: frontend;
+}
+
+.skills:nth-child(3) {
+  grid-area: tools;
+  justify-content: center;
+  max-width: 900px;     /* keeps it visually centered */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* =========================
+   Skill Cards
+   ========================= */
 
 .skill {
   box-sizing: border-box;
@@ -62,7 +94,6 @@
   align-items: center;
   padding: 0px;
   border-radius: 10px;
-  /* border: 1px solid yellow; */
 }
 
 .skillImageContainer {
@@ -74,7 +105,6 @@
   border-radius: 100%;
   width: 105px;
   height: 105px;
-  /* filter: blur(0px); */
 }
 
 .skillImageContainer img {
@@ -87,24 +117,49 @@
   font-weight: 300;
 }
 
+/* =========================
+   Responsive
+   ========================= */
+
 @media screen and (max-width: 830px) {
   .container {
     background-color: transparent;
     padding: 10px;
     margin: 10px;
   }
+
   .content {
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 25px;
     padding: 0px;
     margin: 0px;
   }
+
   .skills {
-    flex-basis: 100%;
     width: 100%;
+    justify-content: center;
   }
+
   .title {
     margin-bottom: 30px;
+  }
+
+  .sub_title {
+    margin-bottom: 16px;
+  }
+
+  .skillImageContainer {
+    width: 95px;
+    height: 95px;
+  }
+
+  .skillImageContainer img {
+    max-width: 62px;
+  }
+
+  .skill p {
+    font-size: 18px;
   }
 }
