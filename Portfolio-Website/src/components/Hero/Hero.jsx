@@ -18,7 +18,7 @@ export const Hero = () => {
           Rodolfo Gil-Pereira
         </h1>
         <p className={styles.description}>
-          I'm a 3rd Year Software Engineering Student
+          I'm a 4th Year Software Engineering Student
           <br />
           at the University of Calgary.
         </p>
