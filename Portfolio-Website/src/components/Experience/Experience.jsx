@@ -8,7 +8,7 @@ export const Experience = () => {
       <div className={styles.header}>
         <h2 className={styles.title}>Experience</h2>
         <p className={styles.subtitle}>
-          Roles, projects, and hands-on experience.
+          
         </p>
       </div>
 
