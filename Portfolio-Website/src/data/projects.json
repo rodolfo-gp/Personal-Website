@@ -1,5 +1,13 @@
 [
   {
+    "title": "Build Resumes Until Hired",
+    "imageSrc": "projects/bruh.png",
+    "description": "Contributed to the backend development of a full-stack web application that helps job seekers tailor resumes and cover letters. Built and maintained REST APIs, integrated MongoDB for data persistence, and supported deployment of the application to a production environment.",
+    "skills": ["Python", "Flask", "MongoDB", "Deployment"],
+    "demo": "https://bru-h.xyz/",
+    "source": "https://github.com/rodolfo-gp/Build-Resume-Until-Hired"
+  },
+  {
     "title": "Movie Theater Application Server",
     "imageSrc": "projects/porgramming.jpg",
     "description": "Worked in a team, where I designed and developed a MySQL DB and Spring Boot server REST API for features like movie info, user authentication, ticket booking, and payment.",
