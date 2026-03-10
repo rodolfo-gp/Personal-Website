@@ -4,7 +4,7 @@
     "imageSrc": "projects/bruh.png",
     "description": "Contributed to the backend development of a full-stack web application that helps job seekers tailor resumes and cover letters. Built and maintained REST APIs, integrated MongoDB for data persistence, and supported deployment of the application to a production environment.",
     "skills": ["Python", "Flask", "MongoDB", "Deployment"],
-    "demo": "https://bru-h.xyz/",
+    "demo": "",
     "source": "https://github.com/rodolfo-gp/Build-Resume-Until-Hired"
   },
   {
